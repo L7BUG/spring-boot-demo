@@ -1,0 +1,5 @@
+spring:
+    application:
+        name: log-aop-demo
+server:
+    port: 11111
