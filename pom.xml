@@ -13,6 +13,7 @@
         <module>demo01</module>
         <module>dependencies</module>
         <module>redis</module>
+        <module>postgres-demo</module>
     </modules>
 
     <properties>
@@ -22,6 +23,13 @@
         <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     </properties>
 
+    <dependencies>
+        <dependency>
+            <groupId>org.projectlombok</groupId>
+            <artifactId>lombok</artifactId>
+            <scope>annotationProcessor</scope>
+        </dependency>
+    </dependencies>
     <dependencyManagement>
         <dependencies>
             <dependency>
